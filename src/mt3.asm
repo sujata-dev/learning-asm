@@ -1,8 +1,5 @@
-;Menu driven program to
-;   Enter string
-;   Find number of occurrences of 'a' in string
-;   Find the first and last character of string
-;   Exit
+;To find number of occurrences of 'a' in string, and print the first and last
+;character of string
 mess macro msg
     lea dx,msg
     mov ah,09h
