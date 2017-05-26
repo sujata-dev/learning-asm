@@ -1,5 +1,4 @@
 ;Write 8086 ALP to add array of 5 hexadecimal numbers stored in the memory.
-;Accept input from user, store it in an array, add the array and display it.
 menu macro msg              ;Indicates a macro for displaying strings
     lea dx,msg
     mov ah,09h
