@@ -1,7 +1,4 @@
-;Menu driven program to
-;   Enter strings
-;   Concatenate strings
-;   Exit
+;To concatenate two strings
 mess macro msg
     lea dx,msg
     mov ah,09h
