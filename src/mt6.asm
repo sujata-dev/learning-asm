@@ -1,4 +1,4 @@
-;Write an ALP in 8086 to add two 32-bit Hexa decimal numbers
+;To add two 32-bit Hexa decimal numbers
 menu macro msg              ;Indicates a macro for displaying strings
     lea dx,msg
     mov ah,09h
