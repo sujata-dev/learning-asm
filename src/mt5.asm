@@ -1,8 +1,4 @@
-;Menu driven program to
-;   Enter two 16 bit numbers
-;   Addition
-;   Subtraction
-;   Multiplication
+;To add, subtract and multiply two 16-bit numbers
 menu macro msg              ;Indicates a macro for displaying strings
     lea dx,msg
     mov ah,09h
