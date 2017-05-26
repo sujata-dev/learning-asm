@@ -1,8 +1,4 @@
-;Menu driven program to
-;   Enter the string
-;   Calculate length of string by direct method
-;   Reverse string
-;   Exit
+;To find string length and reverse string
 mess macro msg
     lea dx,msg
     mov ah,09h
